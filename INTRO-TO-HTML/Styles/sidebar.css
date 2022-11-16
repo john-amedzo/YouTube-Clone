@@ -1,0 +1,35 @@
+.sidebar{
+  position: fixed;
+  top: 55px;
+  left: 0;
+  bottom: 0;
+  width: 70px;
+  background-color: white;
+  z-index: 200;
+  padding-top: 5px;
+}
+.home-icon, .explore-icon,
+.subcription-icon, .originals-icon,
+.y-music-icon, .library-icon{
+  height: 24px;
+  width: 28px;
+}
+.sidebar-link{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 14px;
+  padding-bottom: 18px;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 10px;
+}
+.sidebar-link img{
+  margin-bottom: 7px;
+  height: 24px;
+}
+.sidebar-link:hover{
+  cursor: pointer;
+  background-color: rgb(241, 241, 241);
+}
